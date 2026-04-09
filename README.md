@@ -26,6 +26,17 @@ Automatizar cenários de testes para a API do Trello, cobrindo:
 
 ---
 
+## 🔐 Configuração
+
+Antes de rodar o projeto, configure as variáveis de ambiente:
+
+TRELLO_KEY=your_key  
+TRELLO_TOKEN=your_token
+
+Sem essas variáveis, os testes irão falhar.
+
+---
+
 ## 📂 Estrutura do Projeto
 trello-automation/
 ├── src/
